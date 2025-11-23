@@ -1,0 +1,117 @@
+(footprint "CL10C120JB8NNNC"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -3.85 -0.05 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8748d72e-a945-4574-9c30-eb528b6e2abe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "CL10C120JB8NNNC"
+		(at 0 -3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1f26f63f-2db9-45af-a615-830504cf6bb7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3682/CL10C120JB8NNNC_Spec.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7cc9100c-e28c-460d-9b4a-78070bc1fddd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a446c93-2bb3-4217-bbc9-a59694d3a01a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.05 -0.7)
+		(end 1.05 0.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "3291cba3-abaf-4d72-8b78-f938a41a6768")
+	)
+	(fp_rect
+		(start -0.8 -0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "69aa977b-d92a-48e6-9fc9-70a2e6464c34")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.05 2.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9ec8c3c4-af26-4ef0-867f-070e447a13b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.55 0)
+		(size 0.5 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "2e201ae8-79fd-415c-9f1b-71aaafce5578")
+	)
+	(pad "2" smd rect
+		(at 0.55 0 180)
+		(size 0.5 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "51df1f3e-61fe-420b-8791-85cc1c770893")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,197 @@
+(footprint "XL-1608SURC-06"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -11 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e49cf108-b8f8-49a4-a642-46ad7b72e974")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "XL-1608SURC-06"
+		(at 0.1 -6.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f064a746-fee5-43bb-b4d2-20dff2c84666")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6472/5962_XL-1608SURC-06%20%20%200603%E7%BA%A20.6T.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "afb7fbba-8f80-4b88-8b1d-d82a16ea6019")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1da40556-dad1-42a1-bafa-7f7bdb0a554e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.2 -0.3)
+		(end 0.3 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c8c2db68-96b7-463a-a3ef-521be55a9129")
+	)
+	(fp_line
+		(start -0.2 0)
+		(end 0.3 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b9a1f928-bc29-4cc4-817e-d7311e72ff62")
+	)
+	(fp_line
+		(start -0.2 0.3)
+		(end -0.2 -0.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "45a27bc0-5965-4f6c-90e5-cd7ec3854c70")
+	)
+	(fp_line
+		(start 0.3 0)
+		(end -0.2 0.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bf40abf0-f48f-49dc-ba19-8b9e68c9bfda")
+	)
+	(fp_line
+		(start -0.55 -0.25)
+		(end -0.475 -0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "bbef85e6-d201-4955-9a21-c0892d567eea")
+	)
+	(fp_line
+		(start -0.475 -0.25)
+		(end -0.4 -0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "6ad6047a-0f19-4897-9b28-1d3070ba26a8")
+	)
+	(fp_line
+		(start -0.475 -0.175)
+		(end -0.475 -0.325)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "a51a5523-0638-464c-a584-7081a2231295")
+	)
+	(fp_line
+		(start 0.4 -0.3)
+		(end 0.5 -0.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "1e4a934f-a10b-43bf-abc9-64a02c6ad554")
+	)
+	(fp_rect
+		(start -1.1 -0.65)
+		(end 1.1 0.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "88c75552-88a1-4f1e-ba2e-3eec9d3376b4")
+	)
+	(fp_rect
+		(start -0.8 -0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "431b22ed-0dc8-460f-88e2-b4082fa071aa")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f059690a-7bfc-46f0-970f-b7842ce4d1c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.6 0)
+		(size 0.5 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "271b1136-fbcf-407f-826b-8dbc88a56097")
+	)
+	(pad "2" smd rect
+		(at -0.6 0)
+		(size 0.5 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "d4e02893-84c8-42ca-ac6a-c31db93e3bac")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric_Castellated.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
