@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "my_footprints:ATMEGA328P-AU"
+		(property "Footprint" "mportrai_footprints:ATMEGA328P-AU"
 			(at 0 0 0)
 			(effects
 				(font
@@ -614,7 +614,7 @@
 				)
 			)
 		)
-		(property "Footprint" "my_footprints:CC0603KRX7R9BB104"
+		(property "Footprint" "mportrai_footprints:CC0603KRX7R9BB104"
 			(at 0 0 0)
 			(effects
 				(font
@@ -757,12 +757,13 @@
 				)
 			)
 		)
-		(property "Footprint" "my_footprints:CL10C120JB8NNNC"
+		(property "Footprint" "mportrai_footprints:CL10C120JB8NNNC"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -899,7 +900,7 @@
 				)
 			)
 		)
-		(property "Footprint" "my_footprints:CL10A105KB8NNNC"
+		(property "Footprint" "mportrai_footprints:CL10A105KB8NNNC"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1036,7 +1037,7 @@
 				)
 			)
 		)
-		(property "Footprint" "my_footprints:Connecteur_1"
+		(property "Footprint" "mportrai_footprints:Connecteur_1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1448,7 +1449,7 @@
 				)
 			)
 		)
-		(property "Footprint" "my_footprints:Connecteur_2"
+		(property "Footprint" "mportrai_footprints:Connecteur_2"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1698,7 +1699,7 @@
 				)
 			)
 		)
-		(property "Footprint" "my_footprints:X322516MLB4SI"
+		(property "Footprint" "mportrai_footprints:X322516MLB4SI"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2001,7 +2002,7 @@
 				)
 			)
 		)
-		(property "Footprint" "my_footprints:TZ-P2-0603YGTCS1-0.6T"
+		(property "Footprint" "mportrai_footprints:TZ-P2-0603YGTCS1-0.6T"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2228,7 +2229,7 @@
 				)
 			)
 		)
-		(property "Footprint" "my_footprints:XL-1608SURC-06"
+		(property "Footprint" "mportrai_footprints:XL-1608SURC-06"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2540,7 +2541,7 @@
 				)
 			)
 		)
-		(property "Footprint" "my_footprints:RC0603FR-0710KL"
+		(property "Footprint" "mportrai_footprints:RC0603FR-0710KL"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2670,7 +2671,7 @@
 				)
 			)
 		)
-		(property "Footprint" "my_footprints:0603WAF3300T5E"
+		(property "Footprint" "mportrai_footprints:0603WAF3300T5E"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2800,7 +2801,7 @@
 				)
 			)
 		)
-		(property "Footprint" "my_footprints:B3U-1000P"
+		(property "Footprint" "mportrai_footprints:B3U-1000P"
 			(at 0 0 0)
 			(effects
 				(font
