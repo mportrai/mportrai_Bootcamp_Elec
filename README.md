@@ -1,6 +1,6 @@
 # mportrai_Bootcamp_Elec
 
-Liste des composants utilises:
+## Liste des composants utilises:
 | **Reference**  | **Qty** | **Value** | **DNP** | **Excl. BOM** | **Excl. Board** | **Footprint** | **Datasheet** |
 |----------------|-----|------------------------|-----|-----------|-------------|------------------------------------------------|---------------|
 | C1, C2         | 2   | Condensateur 12 pF     |     |           |             | mportrai_footprints:CL10C120JB8NNNC            | [Datasheet](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10A105KB8NNNC_Spec.pdf) |
@@ -17,40 +17,18 @@ Liste des composants utilises:
 | Y1             | 1   | Cristal 16 MHz         |     |           |             | mportrai_footprints:X322516MLB4SI              | [Datasheet](https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588879072148017152) |
 
 
-PINOUT
-| **PIN Connecteur** | **Label** |
-|----------------|----------|
-| **J1** | |
-| 1 | D9 |
-| 2 | D8 |
-| 3 | D7 |
-| 4 | D6 |
-| 5 | D5 |
-| 6 | D4 |
-| 7 | D3 |
-| 8 | D2 |
-| 9 | GND |
-| 10 | RST |
-| 11 | RXI |
-| 12 | TX0 |
-| **J2** | |
-| 1 | RAW |
-| 2 | GND |
-| 3 | RST |
-| 4 | VCC |
-| 5 | A3 |
-| 6 | A2 |
-| 7 | A1 |
-| 8 | A0 |
-| 9 | SCK |
-| 10 | MISO |
-| 11 | MOSI |
-| 12 | D10 |
-| **J3** | |
-| 1 | DTR |
-| 2 | TX0 |
-| 3 | RXI |
-| 4 | VCC |
-| 5 | GND |
-| 6 | GND |
-
+## Pin Layout
+| **PIN number** | **Label Connecteur J1** | **Label Connecteur J2** | **Label Connecteur J3** |
+|----------------|-------------------------|-------------------------|-------------------------|
+| 1 | D9 | RAW | DTR |
+| 2 | D8 | GND | TX0 |
+| 3 | D7 | RST | RXI |
+| 4 | D6 | VCC | VCC |
+| 5 | D5 | A3 | GND |
+| 6 | D4 | A2 | GND |
+| 7 | D3 | A1 | x |
+| 8 | D2 | A0 | x |
+| 9 | GND | SCK | x |
+| 10 | RST | MISO | x |
+| 11 | RXI | MOSI | x |
+| 12 | TX0 | D10 | x |
